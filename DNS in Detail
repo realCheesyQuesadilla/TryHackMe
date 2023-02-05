@@ -12,3 +12,20 @@ What is the maximum length of a domain name?
   
 What type of TLD is .co.uk?
   ccTLD
+
+What type of record would be used to advise where to send email?
+ MX
+
+What type of record handles IPv6 addresses?
+ AAAA
+
+What field specifies how long a DNS record should be cached for?
+ TTL
+
+What type of DNS Server is usually provided by your ISP?
+ recursive
+ 
+What type of server holds all the records for a domain?
+ authoritative
+ 
+ 
