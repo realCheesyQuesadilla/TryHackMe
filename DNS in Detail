@@ -28,4 +28,14 @@ What type of DNS Server is usually provided by your ISP?
 What type of server holds all the records for a domain?
  authoritative
  
+What is the CNAME of shop.website.thm?
+ shops.myshopify.com
+
+What is the value of the TXT record of website.thm?
+ THM{7012BBA60997F35A9516C2E16D2944FF}
  
+What is the numerical priority value for the MX record? 
+ 30
+ 
+What is the IP address for the A record of www.website.thm?
+ 10.10.10.10
