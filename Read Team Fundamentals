@@ -6,3 +6,14 @@ During a penetration test, are you concerned about being detected by the client?
 
 Highly organised groups of skilled attackers are nowadays referred to as ...
   Advanced Persistent Threats
+
+
+The goals of a red team engagement will often be referred to as flags or...
+  crown jewels
+
+During a red team engagement, common methods used by attackers are emulated against the target. Such methods are usually called TTPs. What does TTP stand for?
+  tactics, techniques and procedures
+
+The main objective of a red team engagement is to detect as many vulnerabilities in as many hosts as possible (Yay/Nay)
+  nay
+  
