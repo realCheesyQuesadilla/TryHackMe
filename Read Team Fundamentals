@@ -30,3 +30,6 @@ If an adversary deployed Mimikatz on a target machine, where would they be place
 
 What technique's purpose is to exploit the target's system to execute code?
   exploitation
+
+Click the "View Site" button and follow the example engagement to get the flag
+  THM{RED_TEAM_ROCKS} 
