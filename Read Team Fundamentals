@@ -17,3 +17,10 @@ During a red team engagement, common methods used by attackers are emulated agai
 The main objective of a red team engagement is to detect as many vulnerabilities in as many hosts as possible (Yay/Nay)
   nay
   
+
+What cell is responsible for the offensive operations of an engagement?
+  red cell
+
+What cell is the trusted agent considered part of? 
+  white cell
+
