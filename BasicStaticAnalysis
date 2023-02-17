@@ -2,9 +2,11 @@ On the Desktop in the attached VM, there is a directory named 'mal' with malware
 6
 
 In the samples located at Desktop\mal\ directory in the attached VM, which of the samples has the same imphash as file 3? 
-  
+1
+
 Using the ssdeep utility, what is the percentage match of the above-mentioned files? 
- 
+93
+
 How many matches for anti-VM execution techniques were identified in the sample? 
 
 
