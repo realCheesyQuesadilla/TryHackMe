@@ -7,3 +7,21 @@ What do clients connect to servers using?
 What systems does Samba run on?
   unix
   
+Conduct an nmap scan of your choosing, How many ports are open?
+  3
+
+What ports is SMB running on?
+ 139/445
+
+Let's get started with Enum4Linux, conduct a full basic enumeration. For starters, what is the workgroup name?    
+  WORKGROUP
+
+What comes up as the name of the machine?        
+  POLOSMB
+
+What comes up as the name of the machine?        
+  6.1
+  
+What share sticks out as something we might want to investigate?    
+  profiles
+  
