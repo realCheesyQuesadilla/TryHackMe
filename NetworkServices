@@ -25,3 +25,17 @@ What comes up as the name of the machine?
 What share sticks out as something we might want to investigate?    
   profiles
   
+What would be the correct syntax to access an SMB share called "secret" as user "suit" on a machine with the IP 10.10.10.2 on the default port?
+  smbclient //10.10.10.2/secret -U suit
+Does the share allow anonymous access? Y/N? 
+  y
+Great! Have a look around for any interesting documents that could contain valuable information. Who can we assume this profile folder belongs to? 
+  smbclient //10.10.10.2/secret -U suit
+What service has been configured to allow him to work from home?
+  ssh
+Okay! Now we know this, what directory on the share should we look in?
+  .ssh
+This directory contains authentication keys that allow a user to authenticate themselves on, and then access, a server. Which of these keys is most useful to us?
+  id_rsa
+What is the smb.txt flag?
+ THM{smb_is_fun_eh?}
