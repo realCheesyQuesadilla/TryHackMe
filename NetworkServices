@@ -87,3 +87,17 @@ What's the standard FTP port?
   21
 How many modes of FTP connection are there?    
   2
+
+How many ports are open on the target machine?  
+  2
+What port is ftp running on?
+  21
+
+
+What variant of FTP is running on it?  
+  vsftpd
+What is the name of the file in the anonymous FTP directory?
+  PUBLIC_NOTICE.txt
+
+What do we think a possible username could be?
+  Mike
