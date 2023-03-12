@@ -61,3 +61,20 @@ Based on the title returned to us, what do we think this port could be used for?
   a backdoor 
 Who could it belong to? Gathering possible usernames is an important step in enumeration.
   skidy
+  
+Great! It's an open telnet connection! What welcome message do we receive? 
+  SKIDY'S BACKDOOR
+
+Let's try executing some commands, do we get a return on any input we enter into the telnet session? (Y/N)
+  n
+
+Now, use the command "ping [local THM ip] -c 1" through the telnet session to see if we're able to execute system commands. Do we receive any pings? Note, you need to preface this with .RUN (Y/N)
+  y
+What word does the generated payload start with?
+  mkfifo
+
+What would the command look like for the listening port we selected in our payload?
+  nc -lvp 4444
+
+Success! What is the contents of flag.txt?
+  THM{y0u_g0t_th3_t3ln3t_fl4g}
