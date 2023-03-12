@@ -49,3 +49,15 @@ How would you connect to a Telnet server with the IP 10.10.10.3 on port 23?
 The lack of what, means that all Telnet communication is in plaintext?
   encryption
   
+How many ports are open on the target machine?    
+  1
+What port is this?
+  8012
+This port is unassigned, but still lists the protocol it's using, what protocol is this?      
+  tcp
+Now re-run the nmap scan, without the -p- tag, how many ports show up as open?
+  0
+Based on the title returned to us, what do we think this port could be used for?
+  a backdoor 
+Who could it belong to? Gathering possible usernames is an important step in enumeration.
+  skidy
