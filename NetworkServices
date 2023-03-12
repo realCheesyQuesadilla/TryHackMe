@@ -78,3 +78,12 @@ What would the command look like for the listening port we selected in our paylo
 
 Success! What is the contents of flag.txt?
   THM{y0u_g0t_th3_t3ln3t_fl4g}
+  
+
+What communications model does FTP use?
+  client-server
+  
+What's the standard FTP port?
+  21
+How many modes of FTP connection are there?    
+  2
