@@ -101,3 +101,9 @@ What is the name of the file in the anonymous FTP directory?
 
 What do we think a possible username could be?
   Mike
+  
+What is the password for the user "mike"?
+  password
+  
+What is ftp.txt?
+  THM{y0u_g0t_th3_ftp_fl4g}
