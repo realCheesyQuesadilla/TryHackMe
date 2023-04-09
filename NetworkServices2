@@ -14,3 +14,27 @@ Can a Linux NFS server share files with a MacOS client? (Y/N)
   y
 What is the latest version of NFS? [released in 2016, but is still up to date as of 2020] This will require external research.
   4.2
+
+Conduct a thorough port scan scan of your choosing, how many ports are open?
+
+Which port contains the service we're looking to enumerate?
+
+Now, use /usr/sbin/showmount -e [IP] to list the NFS shares, what is the name of the visible share?
+
+Time to mount the share to our local machine!
+
+First, use "mkdir /tmp/mount" to create a directory on your machine to mount the share to. This is in the /tmp directory- so be aware that it will be removed on restart.
+
+Then, use the mount command we broke down earlier to mount the NFS share to your local machine. Change directory to where you mounted the share- what is the name of the folder inside?
+
+Have a look inside this directory, look at the files. Looks like  we're inside a user's home directory...
+
+Interesting! Let's do a bit of research now, have a look through the folders. Which of these folders could contain keys that would give us remote access to the server?
+
+Which of these keys is most useful to us?
+
+Copy this file to a different location your local machine, and change the permissions to "600" using "chmod 600 [file]".
+
+Assuming we were right about what type of directory this is, we can pretty easily work out the name of the user this key corresponds to.
+
+Can we log into the machine using ssh -i <key-file> <username>@<ip> ? (Y/N)
