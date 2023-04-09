@@ -1,0 +1,15 @@
+What does NFS stand for?
+  Network File System
+What process allows an NFS client to interact with a remote directory as though it was a physical device?
+  Mounting
+What does NFS use to represent files and directories on the server?
+  File Handle
+What protocol does NFS use to communicate between the server and client?
+
+What two pieces of user data does the NFS server take as parameters for controlling user permissions? Format: parameter 1 / parameter 2
+
+Can a Windows NFS server share files with a Linux client? (Y/N)
+
+Can a Linux NFS server share files with a MacOS client? (Y/N)
+
+What is the latest version of NFS? [released in 2016, but is still up to date as of 2020] This will require external research.
