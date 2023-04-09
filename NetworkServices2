@@ -52,3 +52,20 @@ Now, SSH into the machine as the user. List the directory to make sure the bash 
 
 Great! If all's gone well you should have a shell as root! What's the root flag?
   THM{nfs_got_pwned}
+
+What does SMTP stand for?
+  Simple Mail Transfer Protocol
+What does SMTP handle the sending of? (answer in plural)
+  emails
+What is the first step in the SMTP process?
+  smtp handhshake
+What is the default SMTP port?
+  25
+Where does the SMTP server send the email if the recipient's server is not available?
+  smtp queue
+On what server does the Email ultimately end up on?
+  pop/imap
+Can a Linux machine run an SMTP server? (Y/N)
+  y
+Can a Windows machine run an SMTP server? (Y/N)
+  y
