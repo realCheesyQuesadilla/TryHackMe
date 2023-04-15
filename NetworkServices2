@@ -139,3 +139,22 @@ Run the exploit. By default it will test with the "select version()" command, wh
   5.7.29-0ubuntu0.18.04.1
 Great! We know that our exploit is landing as planned. Let's try to gain some more ambitious information. Change the "sql" option to "show databases". how many databases are returned?
   4
+
+
+
+First, let's search for and select the "mysql_schemadump" module. What's the module's full name?
+  auxiliary/scanner/mysql/mysql_schemadump
+Great! Now, you've done this a few times by now so I'll let you take it from here. Set the relevant options, run the exploit. What's the name of the last table that gets dumped?
+  waits_global_by_latency
+Awesome, you have now dumped the tables, and column names of the whole database. But we can do one better... search for and select the "mysql_hashdump" module. What's the module's full name?
+  auxiliary/scanner/mysql/mysql_hashdump
+Again, I'll let you take it from here. Set the relevant options, run the exploit. What non-default user stands out to you?
+  carl
+Another user! And we have their password hash. This could be very interesting. Copy the hash string in full, like: bob:*HASH to a text file on your local machine called "hash.txt".
+What is the user/hash combination string?
+    *EA031893AA21444B170FC2162A56978B8CEECE18
+Now, we need to crack the password! Let's try John the Ripper against it using: "john hash.txt" what is the password of the user we found?
+  doggie
+Awesome. Password reuse is not only extremely dangerous, but extremely common. What are the chances that this user has reused their password for a different service?
+What's the contents of MySQL.txt
+  THM{congratulations_you_got_the_mySQL_flag}
