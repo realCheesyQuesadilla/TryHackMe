@@ -123,3 +123,19 @@ What is a common application of MySQL?
   back end database
 What major social network uses MySQL as their back-end database? This will require further research.
   facebook
+
+
+As always, let's start out with a port scan, so we know what port the service we're trying to attack is running on. What port is MySQL using?
+  3306
+Good, now- we think we have a set of credentials. Let's double check that by manually connecting to the MySQL server. We can do this using the command "mysql -h [IP] -u [username] -p"
+
+Okay, we know that our login credentials work. Lets quit out of this session with "exit" and launch up Metasploit.
+
+We're going to be using the "mysql_sql" module.
+
+Search for, select and list the options it needs. What three options do we need to set? (in descending order).
+  PASSWORD/RHOSTS/USERNAME 
+Run the exploit. By default it will test with the "select version()" command, what result does this give you?
+  5.7.29-0ubuntu0.18.04.1
+Great! We know that our exploit is landing as planned. Let's try to gain some more ambitious information. Change the "sql" option to "show databases". how many databases are returned?
+  4
