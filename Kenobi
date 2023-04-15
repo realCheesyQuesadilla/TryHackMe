@@ -1,0 +1,24 @@
+Scan the machine with nmap, how many ports are open?
+  7
+Using the nmap command above, how many shares have been found?
+
+Once you're connected, list the files on the share. What is the file can you see?
+
+What port is FTP running on?
+
+What mount can we see?
+
+Lets get the version of ProFtpd. Use netcat to connect to the machine on the FTP port.
+What is the version?
+
+How many exploits are there for the ProFTPd running?
+
+What is Kenobi's user flag (/home/kenobi/user.txt)?
+
+What file looks particularly out of the ordinary? 
+
+
+Run the binary, how many options appear?
+
+
+What is the root flag (/root/root.txt)?
