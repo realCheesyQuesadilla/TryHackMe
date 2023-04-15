@@ -102,3 +102,11 @@ Now, run the exploit, this may take a few minutes, so grab a cup of tea, coffee,
 
 Okay! Now that's finished, what username is returned?
   administrator
+  
+  
+
+What is the password of the user we found during our enumeration stage?
+  alejandro
+
+Great! Now, let's SSH into the server as the user, what is contents of smtp.txt
+  THM{who_knew_email_servers_were_c00l?}
