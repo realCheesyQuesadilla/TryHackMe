@@ -110,3 +110,16 @@ What is the password of the user we found during our enumeration stage?
 
 Great! Now, let's SSH into the server as the user, what is contents of smtp.txt
   THM{who_knew_email_servers_were_c00l?}
+
+
+
+What type of software is MySQL?
+  relational database management system
+What language is MySQL based on?
+  sql
+What communication model does MySQL use?
+  client-server
+What is a common application of MySQL?
+  back end database
+What major social network uses MySQL as their back-end database? This will require further research.
+  facebook
