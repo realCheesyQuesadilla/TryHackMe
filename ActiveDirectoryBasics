@@ -13,3 +13,9 @@ What was the flag found on Sophie's desktop?
   THM{thanks_for_contacting_support}
 The process of granting privileges to a user over some OU or other AD Object is called...
   delegation
+
+
+After organising the available computers, how many ended up in the Workstations OU?
+  7
+Is it recommendable to create separate OUs for Servers and Workstations? (yay/nay)
+  yay
