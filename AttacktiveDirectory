@@ -26,3 +26,18 @@ What mode is the hash?
   18200
 Now crack the hash with the modified password list provided, what is the user accounts password?
   management2005
+
+
+
+What utility can we use to map remote SMB shares?
+  smbclient
+Which option will list shares?
+  -L
+How many remote shares is the server listing?
+  6
+There is one particular share that we have access to that contains a text file. Which share is it?
+  backup
+What is the content of the file?
+  YmFja3VwQHNwb29reXNlYy5sb2NhbDpiYWNrdXAyNTE3ODYw
+Decoding the contents of the file, what is the full contents?
+  backup@spookysec.local:backup2517860
