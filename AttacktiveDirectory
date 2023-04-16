@@ -41,3 +41,14 @@ What is the content of the file?
   YmFja3VwQHNwb29reXNlYy5sb2NhbDpiYWNrdXAyNTE3ODYw
 Decoding the contents of the file, what is the full contents?
   backup@spookysec.local:backup2517860
+
+
+
+What method allowed us to dump NTDS.DIT?
+  DRSUAPI
+What is the Administrators NTLM hash?
+  0e0363213e37b94221497260b0bcb4fc
+What method of attack could allow us to authenticate as the user without the password?
+  Pass the hash
+Using a tool called Evil-WinRM what option will allow us to use a hash?
+  -H
