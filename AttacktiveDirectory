@@ -1,0 +1,10 @@
+Install Impacket, Bloodhound and Neo4j
+
+
+
+What tool will allow us to enumerate port 139/445?
+  enum4linux
+What is the NetBIOS-Domain Name of the machine?
+  THM-AD
+What invalid TLD do people commonly use for their Active Directory Domain?
+  .local
