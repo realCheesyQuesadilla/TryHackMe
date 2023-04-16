@@ -34,3 +34,9 @@ When referring to Kerberos, what type of ticket allows us to request further tic
   ticket granting ticket
 When using NetNTLM, is a user's password transmitted over the network at any point? (yay/nay)
   nay
+  
+  
+What is a group of Windows domains that share the same namespace called?
+  tree
+What should be configured between two domains for a user in Domain A to access a resource in Domain B?
+  a trust relationship
