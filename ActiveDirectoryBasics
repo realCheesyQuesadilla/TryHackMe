@@ -19,3 +19,10 @@ After organising the available computers, how many ended up in the Workstations 
   7
 Is it recommendable to create separate OUs for Servers and Workstations? (yay/nay)
   yay
+
+
+What is the name of the network share used to distribute GPOs to domain machines?
+  SYSVOL
+
+Can a GPO be used to apply settings to users and computers? (yay/nay)
+  yay
