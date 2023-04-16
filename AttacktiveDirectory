@@ -16,3 +16,13 @@ What notable account is discovered? (These should jump out at you)
   svc-admin
 What is the other notable account is discovered? (These should jump out at you)
   backup
+
+
+We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
+  svc-admin
+Looking at the Hashcat Examples Wiki page, what type of Kerberos hash did we retrieve from the KDC? (Specify the full name)
+  Kerberos 5, etype 23, AS-REP
+What mode is the hash?
+  18200
+Now crack the hash with the modified password list provided, what is the user accounts password?
+  management2005
