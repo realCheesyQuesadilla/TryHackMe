@@ -52,3 +52,11 @@ What method of attack could allow us to authenticate as the user without the pas
   Pass the hash
 Using a tool called Evil-WinRM what option will allow us to use a hash?
   -H
+  
+
+svc-admin
+  TryHackMe{K3rb3r0s_Pr3_4uth}
+backup
+  TryHackMe{B4ckM3UpSc0tty!}
+Administrator
+  TryHackMe{4ctiveD1rectoryM4st3r}
