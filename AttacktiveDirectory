@@ -8,3 +8,11 @@ What is the NetBIOS-Domain Name of the machine?
   THM-AD
 What invalid TLD do people commonly use for their Active Directory Domain?
   .local
+
+
+What command within Kerbrute will allow us to enumerate valid usernames?
+  userenum
+What notable account is discovered? (These should jump out at you)
+  svc-admin
+What is the other notable account is discovered? (These should jump out at you)
+  backup
