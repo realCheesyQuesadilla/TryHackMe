@@ -26,3 +26,11 @@ What is the name of the network share used to distribute GPOs to domain machines
 
 Can a GPO be used to apply settings to users and computers? (yay/nay)
   yay
+
+
+Will a current version of Windows use NetNTLM as the preferred authentication protocol by default? (yay/nay)
+  nay
+When referring to Kerberos, what type of ticket allows us to request further tickets known as TGS?
+  ticket granting ticket
+When using NetNTLM, is a user's password transmitted over the network at any point? (yay/nay)
+  nay
