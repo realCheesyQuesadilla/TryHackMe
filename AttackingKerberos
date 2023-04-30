@@ -5,5 +5,5 @@ What does SPN stand for?
 What does PAC stand for?
   Privilege Attribute Certificate
 What two services make up the KDC?
-
+  AS, TGS
 Deploy the Machine
