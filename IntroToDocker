@@ -22,3 +22,12 @@ How would we list all running containers?
   docker ps
 Now, how would we list all containers (including stopped)?
   docker ps -a
+
+What instruction would we use to specify what base image the container should be using?
+  FROM
+What instruction would we use to tell the container to run a command?
+  RUN
+What docker command would we use to build an image using a Dockerfile?
+  BUILD
+Let's say we want to name this image; what argument would we use?
+  -t
