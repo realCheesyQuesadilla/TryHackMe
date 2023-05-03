@@ -6,3 +6,19 @@ Let's say we wanted to pull the image "tryhackme" (no quotations); what would ou
   docker pull tryhackme
 Let's say we wanted to pull the image "tryhackme" with the tag "1337" (no quotations). What would our command look like?
   docker pull tryhackme:1337
+
+
+What would our command look like if we wanted to run a container interactively?
+Note: Assume we are not specifying any image here.
+  docker run it
+What would our command look like if we wanted to run a container in "detached" mode?
+Note: Assume we are not specifying any image here.
+  docker run -d
+
+Let's say we want to run a container that will run and bind a webserver on port 80. What would our command look like?
+Note: Assume we are not specifying any image here.
+  docker run -p 80:80
+How would we list all running containers?
+  docker ps
+Now, how would we list all containers (including stopped)?
+  docker ps -a
