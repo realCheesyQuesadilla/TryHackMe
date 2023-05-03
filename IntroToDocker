@@ -45,3 +45,10 @@ What does the term "IPC" stand for?
   Interprocess Communication
 What technology can the Docker Server be equalled to?
   api
+
+
+Connect to the machine. What is the name of the container that is currently running?
+  cloudisland
+Use Docker to start a web server with the "webserver" image (no quotations). You will need to run the container with port 80.
+After starting the container, try to connect to https://10-10-203-215.p.thmlabs.com/ in your browser. What is the flag?
+  THM{WEBSERVER_CONTAINER}
