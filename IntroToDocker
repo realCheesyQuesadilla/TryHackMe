@@ -31,3 +31,11 @@ What docker command would we use to build an image using a Dockerfile?
   BUILD
 Let's say we want to name this image; what argument would we use?
   -t
+
+I want to use docker-compose  to start up a series of containers. What argument allows me to do this?
+  up
+I want to use docker-compose  to delete the series of containers. What argument allows me to do this?
+  down
+What is the name of the .yml file that docker-compose uses?
+Note: for this question, you will need to include the .yml file extension in your answer
+  docker-compose.yml
