@@ -1,0 +1,8 @@
+If we wanted to pull a docker image, what would our command look like?
+  docker pull
+If we wanted to list all images on a device running Docker, what would our command look like?
+  docker image ls
+Let's say we wanted to pull the image "tryhackme" (no quotations); what would our command look like?
+  docker pull tryhackme
+Let's say we wanted to pull the image "tryhackme" with the tag "1337" (no quotations). What would our command look like?
+  docker pull tryhackme:1337
