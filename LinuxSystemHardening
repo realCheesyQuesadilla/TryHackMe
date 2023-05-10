@@ -1,0 +1,5 @@
+
+What command can you use to create a password for the GRUB bootloader?
+  grub2-mkpasswd-pbkdf2
+What does PBKDF2 stand for?
+  Password-Based Key Derivation Function 2
