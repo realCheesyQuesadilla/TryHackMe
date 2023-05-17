@@ -18,6 +18,6 @@ What is the third "user" account name?
   user3
 
 Which domain admin do we get a ticket for when harvesting tickets?
-  
+  Administrator
 Which domain controller do we get a ticket for when harvesting tickets?
-
+  CONTROLLER-1
