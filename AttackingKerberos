@@ -7,3 +7,17 @@ What does PAC stand for?
 What two services make up the KDC?
   AS, TGS
 Deploy the Machine
+
+How many total users do we enumerate?
+  10
+What is the SQL service account name?
+  sqlservice
+What is the second "machine" account name?
+  machine2
+What is the third "user" account name?
+  user3
+
+Which domain admin do we get a ticket for when harvesting tickets?
+  
+Which domain controller do we get a ticket for when harvesting tickets?
+
