@@ -6,3 +6,15 @@ Read the following report to answer this question. What is the first IP address 
 
 Read the following report to answer this question. What is the first domain name the malicious process ((PID 1632) attempts to communicate with?
   craftingalegacy.com
+
+
+Go to this report on app.any.run and provide the first suspicious URL request you are seeing, you will be using this report to answer the remaining questions of this task.
+ craftingalegacy.com
+ 
+What term refers to an address used to access websites?
+ domain name
+What type of attack uses Unicode characters in the domain name to imitate the a known domain?
+ punycode attack
+Provide the redirected website for the shortened URL using a preview: https://tinyurl.com/bw7t8p4u
+ https://tryhackme.com/
+ 
