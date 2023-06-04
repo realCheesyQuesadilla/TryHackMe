@@ -28,3 +28,8 @@ The actor drops a malicious executable (EXE). What is the name of this executabl
  G_jugk.exe
 Look at this report by Virustotal. How many vendors determine this host to be malicious?
  9
+
+What browser uses the User-Agent string shown in the screenshot above?
+ Internet Explorer
+How many POST requests are in the screenshot from the pcap file?
+ 6
