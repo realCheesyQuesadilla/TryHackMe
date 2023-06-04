@@ -1,0 +1,8 @@
+ Analyse the report associated with the hash "b8ef959a9176aef07fdca8705254a163b50b49a17217a4ff0107487f59d4a35d" here. What is the filename of the sample? 
+  Sales_Receipt 5606.xls
+
+Read the following report to answer this question. What is the first IP address the malicious process (PID 1632) attempts to communicate with? 
+  50.87.136.52
+
+Read the following report to answer this question. What is the first domain name the malicious process ((PID 1632) attempts to communicate with?
+  craftingalegacy.com
