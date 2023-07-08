@@ -12,6 +12,6 @@ Now you have logged into the website, are you able to identify the version of th
 
 What is the CVE?
   CVE-2019-6714
-Using the public exploit, gain initial access to the server.
 
 Who is the webserver running as?
+  iis apppool\blog
