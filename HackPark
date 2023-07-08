@@ -2,3 +2,16 @@ Whats the name of the clown displayed on the homepage?
   Pennywise
 
 What request type is the Windows website login form using?
+  POST
+
+Guess a username, choose a password wordlist and gain credentials to a user account!
+  1qaz2wsx
+
+Now you have logged into the website, are you able to identify the version of the BlogEngine?
+  3.3.6.0
+
+What is the CVE?
+  CVE-2019-6714
+Using the public exploit, gain initial access to the server.
+
+Who is the webserver running as?
