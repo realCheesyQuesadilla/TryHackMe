@@ -15,3 +15,17 @@ What is the CVE?
 
 Who is the webserver running as?
   iis apppool\blog
+
+What is the OS version of this windows machine?
+  Windows 2012 R2 6.3 Build 9600
+Further enumerate the machine.
+
+What is the name of the abnormal service running?
+
+What is the name of the binary you're supposed to exploit? 
+
+Using this abnormal service, escalate your privileges!
+
+What is the user flag (on Jeffs Desktop)?
+
+What is the root flag?
