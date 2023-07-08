@@ -18,14 +18,13 @@ Who is the webserver running as?
 
 What is the OS version of this windows machine?
   Windows 2012 R2 6.3 Build 9600
-Further enumerate the machine.
 
 What is the name of the abnormal service running?
-
+  WindowsScheduler
 What is the name of the binary you're supposed to exploit? 
-
-Using this abnormal service, escalate your privileges!
+  Message.exe
 
 What is the user flag (on Jeffs Desktop)?
-
+  759bd8af507517bcfaede78a21a73e39
 What is the root flag?
+  7e13d97f05f7ceb9881a3eb3d78d3e72
