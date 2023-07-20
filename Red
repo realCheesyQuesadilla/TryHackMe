@@ -4,7 +4,7 @@ What is the first flag?
 What is the second flag?
   THM{Y0u_won't_mak3_IT_furTH3r_th@n_th1S}
 
-
 What is the third flag?
+  THM{Go0d_Gam3_Blu3_GG}
 
 
