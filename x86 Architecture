@@ -20,3 +20,9 @@ Which flag will be set when the most significant bit in an operation is set to 1
 Which Segment register contains the pointer to the code section in memory?
   Code Segment
 
+When a program is loaded into Memory, does it have a full view of the system memory? Y or N?
+  n
+Which section of the Memory contains the code?
+  code
+Which Memory section contains information related to the program's control flow?
+  stack
