@@ -12,3 +12,11 @@ Which register in a 32-bit system is also called the Counter Register?
   ECX
 Which registers from the ones discussed above are not present in a 32-bit system?
   R8-R15
+
+Which flag is used by the program to identify if it is being run in a debugger?
+  Trap Flag
+Which flag will be set when the most significant bit in an operation is set to 1?
+  Sign Flag
+Which Segment register contains the pointer to the code section in memory?
+  Code Segment
+
