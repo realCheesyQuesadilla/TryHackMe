@@ -1,0 +1,14 @@
+
+In which part of the Von Neumann architecture are the code and data required for a program to run stored?
+  Memory
+What part of the CPU stores small amounts of data?
+  Registers
+In which unit are arithmetic operations performed?
+  Arithmetic Logic Unit
+
+Which register holds the address to the next instruction that is to be executed?
+  Instruction Pointer
+Which register in a 32-bit system is also called the Counter Register?
+  ECX
+Which registers from the ones discussed above are not present in a 32-bit system?
+  R8-R15
