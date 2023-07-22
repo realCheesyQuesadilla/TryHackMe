@@ -26,3 +26,6 @@ Which section of the Memory contains the code?
   code
 Which Memory section contains information related to the program's control flow?
   stack
+
+ Follow the instructions in the attached static site and find the flag. What is the flag? 
+  THM{SMASHED_THE_STACK}
