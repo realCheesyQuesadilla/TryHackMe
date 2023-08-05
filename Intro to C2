@@ -1,0 +1,11 @@
+What is the term for the software on a compromised computer that communicates back to a command and control (C2) server?
+  agent
+
+What is the beaconing option that introduces a random delay value to the sleep timer?
+  jitter
+
+What is the term for the first portion of a Staged payload?
+  dropper
+
+What is the name of the communication method that can potentially allow access to a restricted network segment that communicates via TCP ports 139 and 445?
+  SMB beacon
