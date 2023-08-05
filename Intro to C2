@@ -20,3 +20,10 @@ What flag can be found after gaining access to Ted's user account?
   THM{bd6ea6c871dced619876321081132744}
 What is Ted's NTLM Hash?
   2e2618f266da8867e5664425c1309a5c
+
+
+
+What setting name that allows you to modify the User Agent field in a Meterpreter payload?
+  HttpUserAgent
+What setting name that allows you to modify the Host header in a Meterpreter payload?
+  httphostheader
