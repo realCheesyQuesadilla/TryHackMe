@@ -17,3 +17,10 @@ How long is the red cell expected to maintain persistence?
   3 weeks
 What is the primary tool used within the engagement?
   Cobalt Strike
+
+When will the engagement end? (MM/DD/YYYY)
+  11/14/2021
+What is the budget the red team has for AWS cloud cost?
+  $1000
+Are there any miscellaneous requirements for the engagement? (Y/N)
+  n
