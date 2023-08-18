@@ -1,0 +1,6 @@
+What CIDR range is permitted to be attacked?
+  10.0.4.0/22
+Is the use of white cards permitted? (Y/N)
+  y
+Are you permitted to access "*.bethechange.xyz?" (Y/N)
+  n
