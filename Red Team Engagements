@@ -10,3 +10,10 @@ What is the first access type mentioned in the document?
   Phishing
 Is the red team permitted to attack 192.168.1.0/24? (Y/N)
   n
+
+How long will the engagement last?
+  1 month
+How long is the red cell expected to maintain persistence?
+  3 weeks
+What is the primary tool used within the engagement?
+  Cobalt Strike
