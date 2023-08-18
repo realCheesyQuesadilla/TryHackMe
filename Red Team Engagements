@@ -24,3 +24,11 @@ What is the budget the red team has for AWS cloud cost?
   $1000
 Are there any miscellaneous requirements for the engagement? (Y/N)
   n
+
+What phishing method will be employed during the initial access phase?
+  spearphishing
+
+What site will be utilized for communication between the client and red cell?
+  vector.io
+If there is a system outage, the red cell will continue with the engagement. (T/F)
+  F
