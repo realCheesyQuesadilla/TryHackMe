@@ -4,3 +4,9 @@ Is the use of white cards permitted? (Y/N)
   y
 Are you permitted to access "*.bethechange.xyz?" (Y/N)
   n
+How many explicit restriction are specified?
+  3
+What is the first access type mentioned in the document?
+  Phishing
+Is the red team permitted to attack 192.168.1.0/24? (Y/N)
+  n
