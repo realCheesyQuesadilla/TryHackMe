@@ -18,3 +18,15 @@ What is the maximum fine for Tier 1 users as per GDPR (in terms of percentage)?
   4
 In terms of PCI DSS, what does CHD stand for?
   cardholder data
+
+Per NIST 800-53, in which control category does the media protection lie?
+  Physical
+Per NIST 800-53, in which control category does the incident response lie?
+  Administrative
+Which phase (name) of NIST 800-53 compliance best practices results in correlating identified assets and permissions?
+  map
+
+Which ISO/IEC 27001 component involves selecting and implementing controls to reduce the identified risks to an acceptable level?
+  risk treatment
+In SOC 2 generic controls, which control shows that the system remains available?
+  availability
