@@ -20,3 +20,21 @@ What is the TCP payload size?
   424
 What is the e-tag value?
   9a01a-4696-7e354b00
+
+Search the "r4w" string in packet details. What is the name of artist 1?
+  r4w8173
+Go to packet 12 and read the comments. What is the answer?
+  911cd574a42865a956ccde2d04495ebf
+There is a ".txt" file inside the capture file. Find the file and read it; what is the alien's name?
+  Packetmaster
+Look at the expert info section. What is the number of warnings?
+  1636
+
+Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter. Now, look at the filter pane. What is the filter query?
+  http
+What is the number of displayed packets?
+  1089
+Go to packet number 33790 and follow the stream. What is the total number of artists?
+  3
+What is the name of the second artist?
+  Blad3
