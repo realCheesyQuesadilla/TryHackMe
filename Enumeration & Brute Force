@@ -1,1 +1,3 @@
 #### Enumeration & Brute Force
+What type of error messages can unintentionally provide attackers with confirmation of valid usernames?
+  Verbose errors
